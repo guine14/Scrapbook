@@ -355,3 +355,49 @@ body {
   font-family: 'Arial';
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .navbar li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .favorites-section, .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-side, .right-side {
+    width: 100%;
+  }
+
+  .fav-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* For very small mobile screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 8px;
+  }
+
+  .title h1 {
+    font-size: 24px;
+  }
+
+  .profile-card img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about-section {
+    padding: 0 20px;
+  }
+}
